@@ -1,6 +1,6 @@
 var readlineSync = require ("readline-sync")
 var question = readlineSync.question("What is your Name? ")
-var answer = readlineSync.question("Hello "+question)
+var answer = readlineSync.question("Hello "+question+ "! Press Enter to  start")
 console.log("Let's see how much you know about MCU.👀")
 console.log("---------------")
 console.log("---------------")
